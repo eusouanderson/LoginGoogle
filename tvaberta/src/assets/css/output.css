@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+  background-color: #2b2c2e;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+img {
+  max-width: 50px;
+  height: auto;
+}
+html{
+  background-color: #2b2c2e;
+  counter-reset: section;
+  color: aliceblue;
+}
